@@ -116,7 +116,7 @@ section h2 {
   background-color: #ffffff;
 }
 
-.project-1 {
+.project-item {
   background: #f9f9f9;
   padding: 25px;
   border-radius: 10px;
@@ -129,7 +129,7 @@ section h2 {
   margin: 15px 0;
 }
 
-.project-1 ul {
+.project-item ul {
   margin-top: 10px;
   padding-left: 20px;
 }
