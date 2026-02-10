@@ -121,9 +121,11 @@ section h2 {
   margin-bottom: 20px;
   letter-spacing: 0.5px;
   background: linear-gradient(to right, #2563eb, #ec4899);
-  -webkit-background-clip: text;
-  color: transparent;
+  -webkit-background-clip: text; /* Chrome, Safari */
+  background-clip: text;         /* Standard (future support) */
+  -webkit-text-fill-color: transparent; /* Required for gradient text */
 }
+
 
 /* ===== HOME ===== */
 #home{
