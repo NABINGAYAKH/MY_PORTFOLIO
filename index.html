@@ -9,121 +9,310 @@
 <body>
     <nav>
         <h1 id="logo">Nabin Gayak H</h1>
+
         <ul>
             <li><a href="#home">Home</a></li>
             <li><a href="#about">About</a></li>
             <li><a href="#skills">Skills</a></li>
             <li><a href="#projects">Projects</a></li>
+            <li><a href="#internship">Internship</a></li>
+            <li><a href="#certifications">Certifications</a></li>
             <li><a href="#education">Education</a></li>
             <li><a href="#contact">Contact</a></li>
         </ul>
     </nav>
+    
 
     <section id="home">
         <div class="home-container">
             <div class="home-text">
-                <h2>Hello, I'm <span>Nabin Gayak H</span></h2>
-                <p>Java Backend Developer | Spring Boot . Hibernate . SQL</p>
-                <a href="assets/Nabin_Gayak_Resume.pdf" download class="btn">Download Resume</a>
+                <h2>Nabin Gayak H</h2>
+                <h3>Building reliable backend systems, one solution at a time.</h3>
+                <p>
+                    Java Backend Developer focused on building REST APIs and backend applications
+                    using Java, Spring Boot, Hibernate, and PostgreSQL. Passionate about writing
+                    clean, maintainable code and developing practical solutions to real-world problems.
+               </p>
+                <a href="assets/Nabin_Gayak_Resume.pdf" download class="btn">
+                    Download Resume
+                </a>
+
+                <a href="https://github.com/NABINGAYAKH" target="_blank"
+                    rel="noopener noreferrer" class="btn outline">
+                    GitHub
+                </a>
+
+                <a href="https://www.linkedin.com/in/nabingayakh" target="_blank"
+                    rel="noopener noreferrer" class="btn outline">
+                    LinkedIn
+                </a>
             </div>
-         <div class="home-image">
-            <img src="assets/profile.PNG" alt="Nabin Profile Photo">
+            <div class="home-image">
+                <img src="assets/profile.PNG" alt="Nabin Profile Photo">
+            </div>
         </div>
-    </div>
-</section>
+    </section>
 
 
     <section id="about">
         <h2>About Me</h2>
-        <p>Computer Science graduate (2025) with hands-on backend development experience in Java, Spring Boot, Spring JDBC, and Hibernate. Built a Library Management System using layered architecture and JdbcTemplate, and independently designed a novel authentication system combining flip-flop logic with XOR-based encryption for a final-year project. Comfortable with CRUD operations, database integration (PostgreSQL, H2), and clean, maintainable code following OOP principles. Seeking an entry-level Java/Spring Boot Developer role to contribute to production-grade backend systems.
+        <p>
+            I'm a Computer Science graduate (2025) passionate about Java backend development and building practical, reliable applications.
+            I have hands-on experience with Java, Spring Boot, REST APIs, Hibernate, and PostgreSQL through personal projects where
+            I've worked on backend logic, database integration, authentication, and application workflows.
+        </p>
+
+        <p>
+            I enjoy learning new technologies, solving problems, and writing clean, maintainable code.
+            I'm currently looking for an entry-level Java Developer opportunity where I can apply my skills,
+            learn from experienced developers, and grow as an engineer.
         </p>
     </section>
 
+
     <section id="skills">
-        <h2>Skills</h2>
+        <h2>Technical Skills</h2>
+
         <ul>
-            <li>Programming Languages: Java, SQL, JavaScript</li>
-            <li>Backend & Frameworks: Spring Boot, Spring Core, Spring JDBC, Hibernate</li>
-            <li>Frontend: HTML, CSS, React</li>
-            <li>Databases: PostgreSQL, H2 Database</li>
-            <li>Tools & Practices: Maven, Git, GitHub, IntelliJ IDEA, Eclipse, VS Code, Data Structures & Algorithms</li>
+            <li>
+                <strong>Programming Languages:</strong>
+                Java, SQL, JavaScript
+            </li>
+
+            <li>
+                <strong>Backend & Frameworks:</strong>
+                Spring Boot, Spring Framework, Spring MVC, Spring JDBC,
+                Spring Data JPA, Hibernate, Spring Security
+            </li>
+
+            <li>
+                <strong>API & Security:</strong>
+                REST APIs, JWT Authentication, Role-Based Access Control (RBAC),
+                Jakarta Validation, Swagger
+            </li>
+
+            <li>
+                <strong>Testing & Databases:</strong>
+                JUnit 5, Mockito, PostgreSQL, H2
+            </li>
+
+            <li>
+                <strong>Build & Development Tools:</strong>
+                Maven, Git, GitHub, Docker, Docker Compose, Postman
+            </li>
+
+            <li>
+                <strong>Frontend:</strong>
+                HTML, CSS
+            </li>
+
+            <li>
+                <strong>Core Concepts:</strong>
+                Object-Oriented Programming (OOP), Data Structures & Algorithms,
+                Layered Architecture
+            </li>
         </ul>
     </section>
+    
 
     <section id="projects">
         <h2>Projects</h2>
+
+        
         <article class="project-item">
-            <h3>Library Management System</h3>
+            <h3>Employee IT Helpdesk</h3>
+
+            <p class="project-tech">
+                Java, Spring Boot, Spring Security, JWT, PostgreSQL, JPA, Docker
+            </p>
+
             <div class="project-links">
-                <a href="https://github.com/NABINGAYAKH/Library-Management-System-Spring-JDBC" target="_blank" rel="noopener noreferrer" class="btn outline">GitHub</a>
+                <a href="https://github.com/NABINGAYAKH/Employee-Helpdesk" class="btn outline">GitHub</a>
             </div>
+
             <ul>
-                <li>Developed a backend library management system in Spring Boot using a layered architecture (Model-Repository-Service) to separate concerns and improve maintainability.</li>
-                <li>Implemented full CRUD operations plus search-by-ID, title, and author, along with sorting and record-count queries using SQL and JdbcTemplate.</li>
-                <li>Applied Dependency Injection and Spring IoC with a reusable RowMapper, reducing repetitive data-mapping code across the repository layer.</li>
-            </ul>
-        </article>
-        <article class="project-item">
-            <h3>Securing Data with Novel Flip-Flop Circuit Authentication Algorithm</h3>
-            <div class="project-links">
-                <a href="https://final-yr-project-exhvzbn5de2ttjzoyth7av.streamlit.app/" target="_blank" rel="noopener noreferrer" class="btn">Live Demo</a>
-                <a href="https://github.com/NABINGAYAKH/Final-yr-Project" target="_blank" rel="noopener noreferrer" class="btn outline">GitHub</a>
-            </div>
-            <ul>
-                <li>Engineered a novel authentication system applying flip-flop logic and XOR-based encryption to protect user credentials beyond standard hashing methods.</li>
-                <li>Configured dynamic, time-based token generation, strengthening resistance to replay-style login attacks.</li>
-                <li>Delivered a functional web interface in Streamlit demonstrating the complete login workflow end-to-end, from credential input to secure verification.</li>
+                <li>
+                    Developed a backend helpdesk application using Java and Spring Boot
+                    to manage employees, support agents, tickets, priorities, and
+                    ticket workflows using layered architecture and PostgreSQL.
+                </li>
+
+                <li>
+                    Implemented JWT authentication and Role-Based Access Control (RBAC)
+                    using Spring Security, with distinct permissions for Employees,
+                    Support Agents, and Administrators.
+                </li>
+
+                <li>
+                    Built DTO-based APIs with validation, global exception handling,
+                    ticket lifecycle rules, pagination, and status/priority filtering.
+                </li>
+
+                <li>
+                    Integrated AI-assisted ticket categorization and priority
+                    recommendations with human approval, and added testing using
+                    JUnit 5, Mockito, and MockMvc.
+                </li>
             </ul>
         </article>
 
+        
         <article class="project-item">
-            <h3>Personal Portfolio Website</h3>
+            <h3>Library Management System</h3>
+
+            <p class="project-tech">
+                Java, Spring Boot, Spring JDBC, H2, SQL, Maven
+            </p>
+
             <div class="project-links">
-                <a href="https://nabingayakh.github.io/MY_PORTFOLIO/" target="_blank" class="btn">Live Demo</a>
-                <a href="https://github.com/NABINGAYAKH/MY_PORTFOLIO" target="_blank" class="btn outline">GitHub</a>
+                <a href="https://github.com/NABINGAYAKH/Library-Management-System-Spring-JDBC"
+                target="_blank"
+                rel="noopener noreferrer"
+                class="btn outline">
+                    GitHub
+                </a>
             </div>
+
             <ul>
-                <li>Built a fully responsive personal website with a clean, cross-device layout to showcase technical skills and projects.</li>
-                <li>Structured content for fast readability and consistent rendering across screen sizes.</li>
+                <li>
+                    Developed a backend library management application using Spring Boot
+                    and Model-Repository-Service architecture for separation of
+                    concerns and maintainability.
+                </li>
+
+                <li>
+                    Implemented CRUD operations, book search by ID, title, and author,
+                    sorting, and record-count queries using SQL and JdbcTemplate.
+                </li>
+
+                <li>
+                    Applied Spring IoC and Dependency Injection with a reusable
+                    RowMapper to simplify data mapping across the repository layer.
+                </li>
             </ul>
+        </article>
+
+        
+        <article class="project-item">
+            <h3>Secure Authentication System Using Flip-Flop Circuit Logic</h3>
+
+            <p class="project-tech">
+                Python, Streamlit, SHA-256, XOR Encryption
+            </p>
+
+            <div class="project-links">
+                <a href="https://final-yr-project-exhvzbn5de2ttjzoyth7av.streamlit.app/"
+                target="_blank"
+                rel="noopener noreferrer"
+                class="btn">
+                    Live Demo
+                </a>
+
+                <a href="https://github.com/NABINGAYAKH/Final-yr-Project"
+                target="_blank"
+                rel="noopener noreferrer"
+                class="btn outline">
+                    GitHub
+                </a>
+            </div>
+
+            <ul>
+                <li>
+                    Developed an authentication system combining flip-flop logic,
+                    XOR-based encryption, and SHA-256 hashing to protect user credentials.
+                </li>
+
+                <li>
+                    Implemented dynamic time-based token generation to strengthen
+                    the authentication process.
+                </li>
+
+                <li>
+                    Built a Streamlit interface demonstrating the complete
+                    authentication and verification workflow.
+                </li>
+            </ul>
+        </article>
+    </section>
+
+    <section id="internship">
+        <h2>Internship Experience</h2>
+
+        <article class="internship-item">
+            <h3>Web Design and Digital Marketing Intern</h3>
+            <p><strong>Cloudzure Consulting Services Pvt. Ltd.</strong></p>
+            <p>July 2024 - August 2024</p>
+
+            <ul>
+                <li>
+                    Developed mobile-responsive website layouts using HTML, CSS,
+                    JavaScript, Figma, and WordPress to ensure consistent UI/UX
+                    across desktop and mobile devices.
+                </li>
+
+                <li>
+                    Applied on-page SEO practices and collaborated with a
+                    cross-functional team to improve website visibility
+                    and search performance.
+                </li>
+            </ul>
+        </article>
+    </section>
+
+    <section id="certifications">
+        <h2>Certifications</h2>
+
+        <article class="certification-item">
+            <h3>Java Spring Framework & Spring Boot</h3>
+            <p>Udemy</p>
+        </article>
+
+        <article class="certification-item">
+            <h3>Angular JS</h3>
+            <p>IBM</p>
         </article>
     </section>
 
     <section id="education">
         <h2>Education</h2>
+
         <article class="education-item">
-        <h3>B.E - Computer Science and Engineering</h3>
-        <p>Anna University</p>
-        <p>Arunai Engineering College, Tiruvannamalai</p>
-        <p>2021 - 2025</p>
-        <p>CGPA: 7.8</p>
+            <h3>Bachelor of Engineering in Computer Science</h3>
+            <p>Arunai Engineering College, Tiruvannamalai</p>
+            <p>2021 - 2025</p>
+            <p>CGPA: 7.8/10</p>
         </article>
 
         <article class="education-item">
-        <h3>Higher Secondary (12th)</h3>
-        <p>State Board of Tamil Nadu</p>
-        <p>Jawahar Matric Hr Sec School, Neyveli</p>
-        <p>2020 - 2021</p>
-        <p>Percentage: 80%</p>
-        </article>
-
-        <article class="education-item">
-        <h3>Secondary (10th)</h3>
-        <p>State Board of Tamil Nadu</p>
-        <p>S D Sion Matric Hr Sec School, Boothangudi</p>
-        <p>2018 - 2019</p>
-        <p>Percentage: 77%</p>
+            <h3>Higher Secondary Education (12th)</h3>
+            <p>Jawahar Matric Hr. Sec. School, Neyveli</p>
+            <p>2020 - 2021</p>
+            <p>Percentage: 80%</p>
         </article>
     </section>
 
     <section id="contact">
-        <h2>Contact Me</h2>
+        <h2>Let's Connect</h2>
+
+        <p>
+            I'm currently looking for entry-level Java Developer opportunities.
+            If you have an opportunity, want to discuss a project, or simply
+            connect, feel free to reach out.
+        </p>
+
         <div class="contact-links">
-            <a href="mailto:nabinmessages@gmail.com">Gmail</a>
-            <a href="https://www.linkedin.com/in/nabingayakh" target="_blank" rel="noopener noreferrer">LinkedIn</a>
-            <a href="https://github.com/NABINGAYAKH">GitHub</a>
+            <a href="mailto:nabinmessages@gmail.com">Email Me</a>
+
+            <a href="https://www.linkedin.com/in/nabingayakh"
+            target="_blank"
+            rel="noopener noreferrer">LinkedIn</a>
+
+            <a href="https://github.com/NABINGAYAKH"
+            target="_blank"
+            rel="noopener noreferrer">GitHub</a>
         </div>
     </section>
+
     <footer>
         <p>© 2026 Nabin. All rights reserved.</p>
     </footer>
